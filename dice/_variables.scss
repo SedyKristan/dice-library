@@ -1,0 +1,58 @@
+// navbar
+$header-height: 3rem;
+
+// theme colors
+$primary: #ffdd00;
+$secondary: #344e6a;
+$warning: #fe6d20;
+$error: #ff4747;
+$info: 	#ddbbd8;
+$success: #2f7f33;
+
+// color palette
+$colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "warning": $warning,
+    "error": $error,
+    "info": $info,
+    "success": $success,
+    "blue": #1919e6,
+    "red": #e61919,
+    "yellow": #e6e619,
+    "green": #19e635,
+    "orange": #ffa600,
+    "purple": #9900ff,
+    "gray": #808080,
+    "black": #000,
+    "white": #fff,
+);
+
+// spacing
+$base-padding: 0.75rem;
+$base-margin: 0.75rem;
+
+// borders
+$base-border-thickness: 1px;
+$base-border-radius: 0.5rem;
+
+// box-shadows
+$base-box-shadow: 1px 3px 5px hsla(0, 0%, 0%, 0.1);
+
+// font-sizes
+$base-font-size: 1rem;
+$font-size-xs: $base-font-size * 0.75;
+$font-size-sm: $base-font-size * 0.813;
+$font-size-md: $base-font-size * 0.938;
+$font-size-lg: $base-font-size * 1.25;
+$font-size-xl: $base-font-size * 1.5;
+$font-size-xxl: $base-font-size * 2;
+
+// font-weight
+$font-weight-md: 500;
+$font-weight-semi-bold: 600;
+
+// z-index
+$z-tooltip: 10;
+$z-fixed: 100;
+$z-modal: 1000;

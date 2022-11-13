@@ -1,0 +1,33 @@
+@use 'sass:math';
+
+.card {
+    display: block;
+    padding: $base-padding;
+    border: $base-border-thickness solid #ddd;
+    box-shadow: $base-box-shadow;
+    overflow: hidden;
+    max-width: 320px;
+    border-radius: math.div($base-border-radius, 2);
+
+    .card-media {
+        display: inherit;
+    }
+
+    .card-title {
+        display: inherit;
+        font-size: $font-size-lg;
+        padding-bottom: $base-padding;
+        font-weight: bold;
+    }
+
+    .card-content {
+        display: inherit;
+        font-size: $base-font-size;
+        padding-bottom: $base-padding;
+    }
+
+    .card-actions {
+        display: inherit;
+        display: flex;
+    }
+}
